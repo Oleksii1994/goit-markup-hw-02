@@ -23,17 +23,13 @@
 body {
   background-color:var(--hero-text-color);
   color:var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
 
 } 
- 
-p {
-  color:var(--text-color);
-}
 
 .logo {
   color:var(--accent-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   width: 145px;
     height: 31px;
    font-family: 'Raleway';
@@ -44,7 +40,7 @@ p {
 } 
 .logo-part {
   color:var(--second-part-logo);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
 } 
 
 .list {
@@ -138,6 +134,10 @@ p {
  color: var(--hero-text-color);
 } 
 
+.features p {
+  color: var(--text-color);
+}
+
 .features .features-title {
   font-family: 'Roboto';
     font-style: normal;
@@ -160,6 +160,7 @@ p {
 } 
 
 .job-title {
+  color: var(--text-color);
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -198,6 +199,11 @@ font-family: 'Roboto';
     letter-spacing: 0.03em;
 } 
 
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color)
+}
+
 .logo-part-ftr {
   color: var(--hero-text-color);
   font-family: 'Raleway', sans-serif;
@@ -206,6 +212,9 @@ font-family: 'Roboto';
 
 /* styles for portfolio */ 
 /* Button */
+.buttons-title {
+  color: var(--hero-text-color);
+} 
 
 .button-primary {
   color: var(--primary-text-color);
@@ -218,6 +227,7 @@ font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26/16);
+  letter-spacing: 0.03em;
 }
 
 .button-list .button-primary:hover,
@@ -229,3 +239,21 @@ font-family: 'Roboto';
 
 /* Works */
 
+.works-title {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+} 
+
+.works-list p {
+  color: var(--text-color);
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
+}
