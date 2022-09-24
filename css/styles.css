@@ -3,6 +3,9 @@
 /* цвет мелкого текста #757575*/
 /* фон темній #2F303A */
 /*цвет белого текста #FFFFFF */
+ 
+
+/* Common styles */
 
 :root {
   --primary-text-color:#212121;
@@ -13,7 +16,9 @@
   --background-color:#2F303A;
   --second-part-logo:#000000;
   
-}
+} 
+
+
 
 body {
   background-color:var(--hero-text-color);
@@ -48,6 +53,10 @@ p {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color:var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 .contacts-nav .link {
@@ -104,4 +113,7 @@ color:var(--hero-text-color)
 .logo-part-ftr {
   color: var(--hero-text-color);
   font-family: 'Raleway', sans-serif;
-}
+} 
+
+
+/* styles for portfolio */
