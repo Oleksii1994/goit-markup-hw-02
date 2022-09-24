@@ -17,6 +17,7 @@
   --background-color: #2F303A;
   --second-part-logo: #000000;
   --portfolio-button-bgr: #F5F4FA;
+  --hover-focus-btn:#2196F3;
 }
 
 
@@ -119,6 +120,11 @@ body {
   font-size: 16px;
   line-height: calc(30/16);
   letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  cursor: pointer;
 }
 
 /* Section */
